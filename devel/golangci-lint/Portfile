@@ -3,7 +3,7 @@
 PortSystem          1.0
 PortGroup           golang 1.0
 
-go.setup            github.com/golangci/golangci-lint 1.61.0 v
+go.setup            github.com/golangci/golangci-lint 2.0.1 v
 revision            0
 
 homepage            https://golangci-lint.run
@@ -22,9 +22,9 @@ maintainers         {gmail.com:herby.gillot @herbygillot} \
                     {@steenzout} \
                     openmaintainer
 
-checksums           rmd160  bd69eb2c025dd13646f97dc49d0c591dee5c7b8c \
-                    sha256  f4efcc09dde3eb81ba7e2fc4230d3e99375a4b176dd28c31cab07371cf5c07db \
-                    size    1738919
+checksums           rmd160  40981e92ff2979f95bfd28da015381fb364dc897 \
+                    sha256  036cb1cb358a416d73525172dd235c5284b69c4c4ceb91e66fd1d661b4d6e24b \
+                    size    2174543
 
 build.args          ./cmd/golangci-lint
 
